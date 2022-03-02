@@ -9,8 +9,8 @@ function About(props) {
     <Card.Img variant="bottom" src="holder.js/180px200" />
     <Card.Body>
       <Card.Text className='card1'>
-        <h3>THE JOHN MERCURIO COLLECTION </h3>
-        <p className= "scentence1">The most complete baseball record books ever written Because records matter</p>
+        <h1 className='title'>THE JOHN MERCURIO COLLECTION </h1>
+        <h2 className= "scentence1">The most complete baseball record books ever written</h2>
         <p className='about'>JOHN A. MERCURIO — “The Professor of Chronology Research” – is the author of six previously published books on Major League Baseball records. More than 250,000 copies of his books have been sold.
 
 His work honors the timelessness of our national pastime…marks the culmination of almost a half century of inspired research and profoundly good work…We invite you to be a part of this unfolding continuous and continual legacy…John Mercurio on Baseball…Records Matter!…Records, not “Stats.” Because Records honor not numbers; but the Person who created them…

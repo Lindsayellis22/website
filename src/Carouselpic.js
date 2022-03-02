@@ -8,8 +8,8 @@ function Carouselpic(props) {
           <Carousel variant="dark">
   <Carousel.Item>
     <img
-      className="d-block w-100"
-    src="./download.jpeg"
+      className="pic"
+    src="./download.jpg"
     // /800x400?text=First slide&bg=f5f5f5"
       alt="First slide"
     />
@@ -18,7 +18,7 @@ function Carouselpic(props) {
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  {/* <Carousel.Item>
     <img
       className="d-block w-100"
       src="holder.js/800x400?text=Second slide&bg=eee"
@@ -39,7 +39,7 @@ function Carouselpic(props) {
       <h5>Third slide label</h5>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
-  </Carousel.Item>
+  </Carousel.Item> */}
 </Carousel>  
         </div>
     );

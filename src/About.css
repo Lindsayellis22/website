@@ -2,19 +2,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 40px;
+    margin-top: 10px
+    
 }
 
-h3 {
+.title {
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 
-.scentence1 {
+h2 {
     color: #DD9719;
+    font-family: "ff-meta-serif-web-pro", serif;
     font-style: italic;
     text-align: center;
+    margin-top: 25px;
 }
 
 .about {
     column-count: 2;
+    margin-top: 25px;
+    column-gap: 25px;
 }
