@@ -6,7 +6,6 @@ function About(props) {
     return (
         <div>
     <Card>
-    <Card.Img variant="bottom" src="holder.js/180px200" />
     <Card.Body>
       <Card.Text className='card1'>
         <h1 className='title'>THE JOHN MERCURIO COLLECTION </h1>

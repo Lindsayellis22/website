@@ -2,12 +2,13 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import './Navtop.css';
 
 
 function Navtop(props) {
     return (
         <div>
-            <Navbar bg="dark" variant="dark" sticky="top">
+            <Navbar bg="dark" variant="dark" sticky="top" className='navigation'>
                 <Container>
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav className="me-auto">

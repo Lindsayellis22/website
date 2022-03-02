@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer(props) {
     return (
         <div>
-            <Navbar bg="dark" variant="dark" fixed="bottom" className='footer'>
+            <Navbar bg="dark" variant="dark" sticky='bottom' className='footer'>
 
             </Navbar>
         </div>
