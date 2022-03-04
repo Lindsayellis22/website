@@ -4,17 +4,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import './Navtop.css';
 
+const customClass = "myCustomNavLink";
 
 function Navtop(props) {
     return (
         <div>
             <Navbar bg="dark" variant="dark" sticky="top" className='navigation'>
-                <Container>
+                <Container className='nav-text'>
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="#home" bsPrefix={customClass}>Home</Nav.Link>
+                    <Nav.Link href="#about" bsPrefix={customClass}>About</Nav.Link>
+                    <Nav.Link href="#books" bsPrefix={customClass}>Books</Nav.Link>
+                    <Nav.Link href="#contact" bsPrefix={customClass}>Contact</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>  

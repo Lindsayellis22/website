@@ -1,9 +1,22 @@
-.navigation {
-    background: #222222;
-    position:absolute;
+.navbar {
 left:0;
 bottom:0;
 width: 100%;
-  height: 105px;
-    color: rgb(138,134,128);   
+height: 105px;
 }
+
+.myCustomNavLink {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-family: Lato;
+    font-weight: bold;
+  }
+  
+  .myCustomNavLink:hover {
+    color: tomato;
+    text-decoration: none;
+  }
+  
