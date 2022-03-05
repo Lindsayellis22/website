@@ -1,4 +1,6 @@
-.navbar {
+.navigation {
+    display: flex;
+    justify-content: center;
 left:0;
 bottom:0;
 width: 100%;
@@ -6,17 +8,33 @@ height: 105px;
 }
 
 .myCustomNavLink {
-    display: flex;
-    justify-content: center;
     color: white;
     text-decoration: none;
     padding: 0.6em;
     font-family: Lato;
     font-weight: bold;
   }
+
+.dropdown {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-family: Lato;
+    font-weight: bold;
+    text-align: right;
+}
   
   .myCustomNavLink:hover {
     color: tomato;
     text-decoration: none;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .navbar {
+      padding: 0;
+    }
+    .myCustomNavLink {
+      padding: 1em 0.7em;
+    }
   }
   
