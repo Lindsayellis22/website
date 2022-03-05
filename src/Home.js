@@ -1,10 +1,26 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './Home.css';
+import Carousel from 'react-bootstrap/Carousel';
+import './Carouselpic.css';
 
 function Home(props) {
     return (
         <div>
+          <Carousel variant="dark">
+  <Carousel.Item>
+    <img
+      className="pic"
+    src="./download.jpg"
+    // /800x400?text=First slide&bg=f5f5f5"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h5>First slide label</h5>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  </Carousel>
     <Card>
     <Card.Body>
       <Card.Text className='card1'>

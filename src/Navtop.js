@@ -16,8 +16,8 @@ function Navtop(props) {
                 <Container className='nav-text'>
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav varient="pills" onSelect={handleSelect}>
-                    <Nav.Link href="#home" bsPrefix={customClass}>Home</Nav.Link>
-                    <Nav.Link bsPrefix={customClass}> <Link to ='/about'>About</Link> </Nav.Link>
+                    <li><Link to="/" className='link'>Home</Link></li>
+                    <li><Link to='/about' className='link'>About</Link></li>
                     <NavDropdown className='dropdown' title="Books" bsPrefix={customClass}>
         <NavDropdown.Item href='book1'>Action</NavDropdown.Item>
         <NavDropdown.Item>Another action</NavDropdown.Item>

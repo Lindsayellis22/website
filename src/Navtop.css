@@ -15,6 +15,19 @@ height: 105px;
     font-weight: bold;
   }
 
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-family: Lato;
+    font-weight: bold;  
+  }
+
+  .link:hover {
+    color: tomato;
+    text-decoration: none;
+  }
+
 .dropdown {
     color: white;
     text-decoration: none;
