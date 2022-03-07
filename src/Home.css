@@ -19,10 +19,17 @@ h2 {
     font-style: italic;
     text-align: center;
     margin-top: 25px;
+    font-size: 1em;
 }
 
 .about {
     column-count: 2;
     margin-top: 25px;
     column-gap: 25px;
+}
+
+h5{
+    color: White;
+    font-size: 100px !important;
+    font-family: "ff-meta-serif-web-pro", serif !important;
 }

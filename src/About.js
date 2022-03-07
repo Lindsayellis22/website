@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.css';
 
 function About(props) {
     return (
-        <div>
+        <div className='aboutCompany'>
             <h1>The Mercurio Brand</h1>
             <h2>There are an estimated 250,000 copies of John Mercurio’s baseball books in print.</h2>
             <p>Baseball fans and enthusiasts love his books. Former American League President Bobby Brown calls Mercurio’s work, “…a baseball treasure.” By focusing on individual and team “records” Mercurio’s books tell a compelling story as records either march forward in chronological order, or stay unbroken. Cooperstown calls him when there is a record dispute to be settled. He has published record books on the Boston Red Sox, New York Yankees, Cincinnati Reds, Major League Baseball, Babe Ruth and MLB Hall of Famers.</p>
