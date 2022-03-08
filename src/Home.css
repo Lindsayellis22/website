@@ -29,22 +29,10 @@ h2 {
 }
 
 h5 {
-
-    background: url(/Users/lindsayellis/website/public/images.jpg) no-repeat center center;
- background-size: cover;
- color: #fff;
- -webkit-text-fill-color: transparent;
- -webkit-background-clip: text;
- -moz-background-clip:text;
- background-clip:text; 
-
- padding:0;
- margin:0;
- text-align:center;
  
     color: white;
     font-size:100px !important;
-    font-family: 'm plus Rounded 1c', sans-serif;
+    font-family: warisover;
     justify-content: flex-start;
     margin-bottom: 300px !important;
     font-weight: 2000px !important;
@@ -53,6 +41,9 @@ h5 {
 
 }
 
-  
+@font-face {
+    font-family: warisover;
+    src: url('/Users/lindsayellis/website/public/warisover.ttf') format('truetype');
+} 
 
 

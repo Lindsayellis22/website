@@ -16,7 +16,7 @@ function Home(props) {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h5>Records Matter<span>&nbsp;</span></h5>
+      <h5>RECORDS MATTER<span>&nbsp;</span></h5>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
