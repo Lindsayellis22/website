@@ -28,8 +28,31 @@ h2 {
     column-gap: 25px;
 }
 
-h5{
-    color: White;
-    font-size: 100px !important;
-    font-family: "ff-meta-serif-web-pro", serif !important;
+h5 {
+
+    background: url(/Users/lindsayellis/website/public/images.jpg) no-repeat center center;
+ background-size: cover;
+ color: #fff;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+ -moz-background-clip:text;
+ background-clip:text; 
+
+ padding:0;
+ margin:0;
+ text-align:center;
+ 
+    color: white;
+    font-size:100px !important;
+    font-family: 'm plus Rounded 1c', sans-serif;
+    justify-content: flex-start;
+    margin-bottom: 300px !important;
+    font-weight: 2000px !important;
+    text-align: center;
+    letter-spacing: 2px;
+
 }
+
+  
+
+
