@@ -6,24 +6,22 @@ import './Navtop.css';
 import { Link } from 'react-router-dom';
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
-const customClass = "myCustomNavLink";
 
 function Navtop(props) {
-    const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
     return (
         <div>
             <Navbar bg="dark" variant="dark" sticky="top" className='navigation'>
                 <Container className='nav-text'>
                 <Navbar.Brand img src="./logo.jpeg" href="#home" alt='logo'></Navbar.Brand>
-                <Nav varient="pills" onSelect={handleSelect}>
+                <Nav className='nav-ul'>
                     <li><Link to="/" className='link'>Home</Link></li>
                     <li><Link to='/about' className='link'>About</Link></li>
-                    <NavDropdown className='dropdown' title="Books" bsPrefix={customClass}>
-        <NavDropdown.Item href='book1'><Link to='history-major-league-baseball'>History of Majour League Baseball Records</Link></NavDropdown.Item>
+                    <li><NavDropdown id='dropdown' title="Books">
+        <NavDropdown.Item><Link className='book1-link' to='history-major-league-baseball'>History of Majour League Baseball Records</Link></NavDropdown.Item>
         <NavDropdown.Item>Another action</NavDropdown.Item>
         <NavDropdown.Item>Something else here</NavDropdown.Item>
-      </NavDropdown>
-                    <Nav.Link href="#contact" bsPrefix={customClass}>Contact</Nav.Link>
+      </NavDropdown></li>
+                    <li><Link to='/contact' className='link'>Contact</Link></li>
                 </Nav>
                 </Container>
             </Navbar>  
