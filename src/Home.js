@@ -16,8 +16,8 @@ function Home(props) {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h5>RECORDS MATTER<span>&nbsp;</span></h5>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h5>BECAUSE RECORDS MATTER</h5>
+      <button className='learn-button'>LEARN MORE</button>
     </Carousel.Caption>
   </Carousel.Item>
   </Carousel>

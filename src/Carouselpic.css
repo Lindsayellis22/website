@@ -5,8 +5,9 @@
     background-repeat: repeat;
     background-position: center;
     mix-blend-mode:multiply;
-    filter: saturate(0%) sepia(100%) contrast(150%) saturate(150%);
+    filter: saturate(0%) sepia(100%) contrast(150%) saturate(150%) brightness(95%);
     height: 600px;
     width: 100%;
     object-fit: cover;
+    
 }

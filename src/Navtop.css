@@ -1,13 +1,21 @@
 div.nav-text.container {
     display: flex;
-    justify-content: center;
+   padding-right: 30px; 
+  
 width: 100%;
 height: 105px;
 
 
 }
 
-
+.nav-brand {
+  width: 220px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+   justify-content: flex-start;
+   margin-left: 80px
+}
 
 
   .link {
@@ -15,10 +23,10 @@ height: 105px;
     text-decoration: none;
     padding: 0.6em;
     font-family: Lato;
-    font-weight: bold;
     display: flex; 
     align-items: baseline !important;
-   
+    margin-right: 90px;
+    font-weight: bold;
     
   }
 
@@ -40,12 +48,16 @@ NavDropdown {
     font-family: Lato;
     font-weight: bold;
     line-height: 1.7em;
+    margin-right: 80px;
     
     
     display: flex;
     /* margin-bottom: 12px; */
 }
 
+a#dropdown.dropdown-toggle.nav-link::after {
+    content: none;
+}
 
 
 #dropdown:hover {

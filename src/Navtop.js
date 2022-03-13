@@ -12,12 +12,14 @@ function Navtop(props) {
         <div>
             <Navbar bg="dark" variant="dark" sticky="top" className='navigation'>
                 <Container className='nav-text'>
-                <Navbar.Brand img src="./logo.jpeg" href="#home" alt='logo'></Navbar.Brand>
-                <Nav className='nav-ul'>
+                <a href="/">
+                    <img src="./logo.jpeg" alt='logo' class="nav-brand"></img>
+                </a>
+                <Nav>
                     <li><Link to="/" className='link'>Home</Link></li>
                     <li><Link to='/about' className='link'>About</Link></li>
                     <li><NavDropdown id='dropdown' title="Books">
-        <NavDropdown.Item><Link className='book1-link' to='history-major-league-baseball'>History of Majour League Baseball Records</Link></NavDropdown.Item>
+        <NavDropdown.Item><Link className='book1-link' to='history-major-league-baseball'>History of Major League Baseball Records</Link></NavDropdown.Item>
         <NavDropdown.Item>Another action</NavDropdown.Item>
         <NavDropdown.Item>Something else here</NavDropdown.Item>
       </NavDropdown></li>

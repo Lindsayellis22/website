@@ -34,10 +34,11 @@ h5 {
     font-size:100px !important;
     font-family: warisover;
     justify-content: flex-start;
-    margin-bottom: 300px !important;
+    margin-bottom: 160px !important;
     font-weight: 2000px !important;
     text-align: center;
     letter-spacing: 2px;
+    
 
 }
 
@@ -46,4 +47,10 @@ h5 {
     src: url('/Users/lindsayellis/website/public/warisover.ttf') format('truetype');
 } 
 
-
+.learn-button {
+    border-radius: 40%;
+    height: 45px;
+    width: 150px;
+    background-color: transparent;
+    margin-bottom: 100px
+}
