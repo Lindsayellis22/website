@@ -1,8 +1,23 @@
 import React from 'react';
 import './About.css';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 function About(props) {
     return (
+        <>
+    <Carousel variant="dark">
+  <Carousel.Item>
+    <img
+      className="pic"
+    src="./download.jpg"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h5>ABOUT US</h5>
+    </Carousel.Caption>
+  </Carousel.Item>
+  </Carousel>
         <div className='aboutCompany'>
             <h1>The Mercurio Brand</h1>
             <h2>There are an estimated 250,000 copies of John Mercurio’s baseball books in print.</h2>
@@ -10,6 +25,7 @@ function About(props) {
             <h1>Chronology Sports Records Publishing, LLC</h1>
             <p>Chronology Sports Records Publishing, LLC was formed by John Mercurio and Lawrence Jordan to publish a new series of Team Record Books chronicling every record in hitting, pitching and fielding by every player who has played baseball since major league baseball began, and reissue all of Mercurio’s previous books. The first new team book, A Chronology of New York Mets Records, will be published as an EBook in Fall 2015, followed by books on the Kansas City Royals, Chicago Cubs, St. Louis Cardinals, Los Angeles Dodgers, Houston Astros, Texas Rangers, Toronto Blue Jays, New York Yankees, Boston Red Sox, Minnesota Twins and Seattle Mariners . . .</p>
         </div>
+        </>
     );
 }
 
