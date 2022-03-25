@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import './Home.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Carouselpic.css';
+import { Link } from 'react-router-dom';
 
 function Home(props) {
     return (
@@ -17,7 +18,7 @@ function Home(props) {
     />
     <Carousel.Caption>
       <h5 className = 'home-carousel'>BECAUSE RECORDS MATTER</h5>
-      <button className='learn-button'>LEARN MORE</button>
+      <Link to='/about'><button className='learn-button'>LEARN MORE</button></Link>
     </Carousel.Caption>
   </Carousel.Item>
   </Carousel>
