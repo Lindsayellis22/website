@@ -32,7 +32,7 @@ h2 {
  
     color: white;
     font-size:100px !important;
-    font-family: warisover;
+    font-family: War is Over;
     justify-content: flex-start;
     margin-bottom: 160px !important;
     font-weight: 2000px !important;
@@ -44,12 +44,12 @@ h2 {
 }
 
 @font-face {
-    font-family: warisover;
-    src: url('/Users/lindsayellis/website/public/warisover.ttf') format('truetype');
+    font-family: War is Over;
+    src: url('/Users/lindsayellis/website/public/War is Over.ttf') format('truetype');
 } 
 
 .learn-button {
-    text-align: center;
+    
 margin-bottom: 100px;
  background: tomato;
   border: 1px solid tomato;
