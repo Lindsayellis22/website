@@ -1,9 +1,10 @@
 div.nav-text.container {
   display: flex;
   padding-right: 30px;
-
+  position: relative;
+  flex-wrap: wrap;
   width: 100%;
-  height: 105px;
+  height: 100px;
 }
 
 .nav-brand {
@@ -68,16 +69,42 @@ a#dropdown.dropdown-toggle.nav-link::after {
   color: tomato;
 }
 
-/* @media only screen and (min-width: 992px) {
-    .navbar {
-      padding: 0;
-    }
-    .link {
-      padding: 1em 0.7em;
-    }
-  }
+body {
+  flex-wrap: wrap;
+}
 
-  navbar.brand {
-    height: 40px;
-    width: 40px;
-  } */
+@media only screen and (max-width: 600px) {
+  div.nav-text.container {
+    display: flex !important;
+    padding-right: 30px;
+    flex-wrap: wrap !important;
+    width: 100%;
+    height: 105px;
+    position: relative !important;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-family: Lato;
+    display: flex !important;
+    /* align-items: baseline; */
+    margin-right: 90px;
+    font-weight: bold;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    position: relative !important;
+    overflow-y: hidden !important;
+  }
+  .nav-brand {
+    width: 220px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* justify-content: flex-start; */
+    position: relative !important;
+    flex-direction: column !important;
+    margin-left: 80px;
+    flex-wrap: wrap !important;
+  }
+}

@@ -1,13 +1,13 @@
 .pic {
-    background-image: radial-gradient(ellipse, #0000, #0007);
-    mix-blend-mode:multiply;
-    background-size: auto, auto, auto, cover;
-    background-repeat: repeat;
-    background-position: center;
-    mix-blend-mode:multiply;
-    filter: saturate(0%) sepia(100%) contrast(150%) saturate(150%) brightness(95%);
-    height: 600px;
-    width: 100%;
-    object-fit: cover;
-    
+  background-image: radial-gradient(ellipse, #0000, #0007);
+  mix-blend-mode: multiply;
+  background-size: auto, auto, auto, cover;
+  background-repeat: repeat;
+  background-position: center;
+  mix-blend-mode: multiply;
+  filter: saturate(0%) sepia(100%) contrast(150%) saturate(150%) brightness(95%);
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  flex-wrap: wrap;
 }

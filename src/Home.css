@@ -75,3 +75,39 @@ h2 {
 .learn-button:active {
   opacity: 0.5;
 }
+
+@media only screen and (max-width: 1280px) {
+  .home-carousel {
+    color: white;
+    font-size: 100px !important;
+    font-family: roboto;
+    box-shadow: whitesmoke;
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    margin-bottom: 50px !important;
+    font-weight: 2000px !important;
+    text-align: center;
+    letter-spacing: 2px;
+    filter: brightness(95%);
+    -webkit-text-stroke: 2px tomato;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-carousel {
+    color: white;
+    font-size: 100px !important;
+    font-family: roboto;
+    box-shadow: whitesmoke;
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+    margin-bottom: 50px !important;
+    font-weight: 2000px !important;
+    text-align: center;
+    letter-spacing: 2px;
+    filter: brightness(95%);
+    -webkit-text-stroke: 2px tomato;
+  }
+}
