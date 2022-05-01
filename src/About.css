@@ -1,41 +1,40 @@
 h1 {
-    font-family: 'Lato', sans-serif;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-weight: bold;
+  font-family: "Lato", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .aboutCompany {
-
-    padding: 40px;
-    margin-top: 25px
-
+  padding: 40px;
+  margin-top: 25px;
 }
 
 .about-us-h2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .about-p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .pic2 {
-    background-size: auto, auto, auto, cover;
-    height: 600px;
-    width: 100%;
-    object-fit: cover;
-    filter: sepia(30%) contrast(100%) saturate(90%) brightness(95%);
+  background-size: auto, auto, auto, cover;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  filter: sepia(30%) contrast(100%) saturate(90%) brightness(95%);
 }
 
 .about-us-carousel {
-    color: white;
-    font-size:100px !important;
-    font-family: War is Over;
-    justify-content: flex-start;
-    margin-bottom: 220px !important;
-    font-weight: 2000px !important;
-    text-align: center;
-    letter-spacing: 2px;
+  color: white;
+  font-size: 100px !important;
+  font-family: roboto;
+  justify-content: flex-start;
+  margin-bottom: 220px !important;
+  font-weight: 2000px !important;
+  text-align: center;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 2px tomato;
 }

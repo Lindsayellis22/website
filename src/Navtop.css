@@ -1,82 +1,74 @@
 div.nav-text.container {
-    display: flex;
-   padding-right: 30px; 
-  
-width: 100%;
-height: 105px;
+  display: flex;
+  padding-right: 30px;
 
-
+  width: 100%;
+  height: 105px;
 }
 
 .nav-brand {
   width: 220px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-   justify-content: flex-start;
-   margin-left: 80px
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: flex-start;
+  margin-left: 80px;
 }
 
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 0.6em;
+  font-family: Lato;
+  display: flex;
+  align-items: baseline !important;
+  margin-right: 90px;
+  font-weight: bold;
+}
 
-  .link {
-    color: white;
-    text-decoration: none;
-    padding: 0.6em;
-    font-family: Lato;
-    display: flex; 
-    align-items: baseline !important;
-    margin-right: 90px;
-    font-weight: bold;
-    
-  }
+.link:hover {
+  color: tomato;
+  text-decoration: none;
+}
 
-  .link:hover {
-    color: tomato;
-    text-decoration: none;
-  }
-  
-  
 NavDropdown {
-    display: flex !important;
-    gap: 50px !important;
+  display: flex !important;
+  gap: 50px !important;
 }
 
 #dropdown {
-    color: white;
-    text-decoration: none;
-    
-    font-family: Lato;
-    font-weight: bold;
-    line-height: 1.7em;
-    margin-right: 80px;
-    
-    
-    display: flex;
-    /* margin-bottom: 12px; */
+  color: white;
+  text-decoration: none;
+
+  font-family: Lato;
+  font-weight: bold;
+  line-height: 1.7em;
+  margin-right: 80px;
+
+  display: flex;
+  /* margin-bottom: 12px; */
 }
 
 a#dropdown.dropdown-toggle.nav-link::after {
-    content: none;
+  content: none;
 }
-
 
 #dropdown:hover {
-    color: tomato;
+  color: tomato;
 }
 
-
 .book1-link {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    margin-left: 0;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-left: 0;
 }
 
 .book1-link:hover {
-    color: tomato;
+  color: tomato;
 }
 
-  /* @media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .navbar {
       padding: 0;
     }
@@ -89,6 +81,3 @@ a#dropdown.dropdown-toggle.nav-link::after {
     height: 40px;
     width: 40px;
   } */
-
-  
-  

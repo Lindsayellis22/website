@@ -1,65 +1,56 @@
 .card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-    margin-top: 10px
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 10px;
 }
 
 .title {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
-
 h2 {
-    color: tomato;
-    font-family: "ff-meta-serif-web-pro", serif;
-    font-style: italic;
-    text-align: center;
-    margin-top: 25px;
-    font-size: 1em;
+  color: tomato;
+  font-family: "ff-meta-serif-web-pro", serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1em;
 }
 
 .about {
-    column-count: 2;
-    margin-top: 25px;
-    column-gap: 25px;
+  column-count: 2;
+  margin-top: 25px;
+  column-gap: 25px;
 }
 
 .home-carousel {
- 
-    color: white;
-    font-size:100px !important;
-    font-family: War is Over;
-    justify-content: flex-start;
-    margin-bottom: 160px !important;
-    font-weight: 2000px !important;
-    text-align: center;
-    letter-spacing: 2px;
-    filter: brightness(95%);
-    
-
+  color: white;
+  font-size: 100px !important;
+  font-family: roboto;
+  box-shadow: whitesmoke;
+  justify-content: flex-start;
+  margin-bottom: 120px !important;
+  font-weight: 2000px !important;
+  text-align: center;
+  letter-spacing: 2px;
+  filter: brightness(95%);
+  -webkit-text-stroke: 2px tomato;
 }
 
-@font-face {
-    font-family: War is Over;
-    src: url('/Users/lindsayellis/website/public/War is Over.ttf') format('truetype');
-} 
-
 .learn-button {
-    
-margin-bottom: 100px;
- background: tomato;
+  margin-bottom: 100px;
+  background: tomato;
   border: 1px solid tomato;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 16px;
@@ -67,7 +58,6 @@ margin-bottom: 100px;
   outline: 0;
   padding: 12px 14px;
   text-align: center;
-  text-rendering: geometricprecision;
   text-transform: none;
   user-select: none;
   -webkit-user-select: none;
@@ -79,10 +69,9 @@ margin-bottom: 100px;
 .learn-button:active {
   background-color: initial;
   background-position: 0 0;
-  color: #FF4742;
+  color: #ff4742;
 }
 
 .learn-button:active {
-  opacity: .5;
+  opacity: 0.5;
 }
-
